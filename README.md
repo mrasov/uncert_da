@@ -12,10 +12,10 @@ This repository contains scripts used for data processing and analysis related t
 The following is the order in which the scripts should be run for successful data processing:
 
 1. `sql_queries.py`: Extract relevant data using SQL queries.
-2. `generate_pairs.py`: Generate molecular pairs for further analysis.
-3. `prot_info_sparql.py`: Fetch protein information using SPARQL queries.
-4. `crossref_info.py`: Retrieve citation information for references.
-5. `assay_regex.py`: Filter and clean assay data using regular expressions.
-6. `main_steps.py`: Perform the main data processing steps, including fingerprinting and t-SNE analysis.
+2. `generate_pairs.py`: Generate pairs of molecule-target systems for further analysis.
+3. `prot_info_sparql.py`: Fetch UniProt information using SPARQL queries.
+4. `crossref_info.py`: Retrieve additional information about documents.
+5. `assay_regex.py`: Extract features from assay descriptions using regular expressions.
+6. `main_steps.py`: Perform the main data processing steps.
 
 Ensure to execute the scripts in the above sequence for proper results.
